@@ -1,0 +1,68 @@
+/*
+ * SitePoint code archive for Build Your Own Web Site Using HTML And CSS
+ * (C) 2006 SitePoint Pty Ltd
+ *
+ * For more books and articles visit http://www.sitepoint.com/
+ *
+ */
+html {
+  background-color: #003366;
+}
+body {
+  color: #143f62;
+  background-color: #fefff8;
+  margin: 20px;
+  padding: 20px;
+  font-family: sans-serif;
+  font-size: .75em;
+  line-height: 1.4em;
+}
+a:hover {
+  color: #ffffff;
+  background-color: #ff6600;
+  text-decoration: none;
+}
+h2 a {
+  text-decoration: none;
+}
+h1 {
+  font-size: 1.7em;
+  font-weight: normal;
+  text-transform: uppercase;
+  text-align: right;
+  margin-bottom: 6px;
+}
+h2 {
+  color: #003366;
+  font-size: 1.3em;
+  padding: 10px 0 5px 0;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #003366;
+}
+h3 {
+  color: #ff3603;
+  font-size: 1.2em;
+  padding: 0;
+}
+ul li {
+  font-weight: bold;
+}
+ul li a {
+  font-weight: normal;
+}
+img {
+  float: left;
+  border: 0;
+}
+.subtitle {
+  font-size: 0.8em;
+}
+ol li {
+  margin-bottom: 5px;
+}
+code {
+  font-size: 1.3em;
+}
+#main {
+  background: transparent url(book-cover.png) top right no-repeat; 
+}

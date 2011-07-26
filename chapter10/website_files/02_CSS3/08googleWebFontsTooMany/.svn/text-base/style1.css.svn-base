@@ -1,0 +1,272 @@
+/*
+CSS for Bubble Under site
+*/
+body {
+  font-family: "Amaranth", Verdana, Helvetica, Arial, sans-serif;
+  background-color: #e2edff;
+  line-height: 125%;
+  padding: 0;
+  margin: 0;
+}
+
+h1, h2, h3 {
+  font-family: "Fontdiner Swanky", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  font-size: x-large;
+  background-color: navy;
+  color: white;
+  padding-top: 2em;
+  padding-bottom: .2em;
+  padding-left: .4em;
+  margin: 0;
+  background: navy url(backgrounds/header-bg.jpg) repeat-y right bottom;
+}
+
+h2 {
+  color: navy;
+  font-size: 130%;
+  font-weight: normal;
+  padding-top: 15px;
+  font-family: 'Luckiest Guy', arial, serif;
+  font-size:2em;
+  line-height:1;
+}
+
+li {
+  font-size: small;
+  list-style-type: none;
+}
+
+p {
+  font-size: small;
+  color: navy;
+}
+
+#tagline p {
+  font-style: italic;
+  font-family: Georgia, Times, serif;
+  border-top: 3px solid #7da5d8;
+  border-bottom: 3px solid #7da5d8;
+  padding-top: .2em;
+  padding-bottom: .2em;
+  padding-left: .8em;
+  margin: 0;
+  background: #bed8f3 url(backgrounds/tagline-fade.jpg) repeat-y right;
+}
+
+em {
+  text-transform: uppercase;
+}
+
+a {
+  font-weight: bold;
+}
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: navy;
+}
+
+a:hover {
+  text-decoration: none;
+  color: white;
+  background-color: navy;
+}
+
+a:active {
+  color: aqua;
+  background-color: navy;
+}
+
+.fun {
+  color: #339999;
+  font-family: Georgia, Times, serif;
+  letter-spacing: 0.05em;
+}
+
+blockquote.fun {
+  font-style: italic;
+}
+
+nav {
+  width: 180px;
+  height: 484px;
+  background: #7da5d8 url(backgrounds/nav-bg.jpg) no-repeat;
+  display:block; /* Only for IE8 or less */
+}
+
+nav ul {margin:0;padding-top:15px;font-family:"Six Caps";}
+nav ul li {margin:10px 0;}
+nav a {text-shadow:1px 1px 2px white, -1px -1px 2px white;text-decoration:none;font-size:3.5em;}
+nav a:hover, nav a:focus {text-shadow:none;}
+
+h2, ul {
+  margin-top: 15px;
+}
+
+header {
+  border-top: 3px solid #7da5d8;
+  display:block; /* Only for IE8 or less */
+}
+
+.aside {
+  float: right;
+  margin: 10px;
+  width:200px;
+}
+
+aside {display:block;float:right;margin:10px;padding:10px;width:30%;background:white;font-style:italic;color:gray;}
+
+aside blockquote {font-size:1.2em;line-height:1.4;margin:0 0 0.5em 0;font-style:normal;color:#006;}
+aside {
+border:2px solid gray;
+-moz-border-radius:20px;
+-webkit-border-radius:5px;
+-o-border-radius:5px;
+-ms-border-radius:5px;
+border-radius:5px;
+}
+
+
+#twitImageLink img {
+  border:none;
+  display:block;
+  margin:15px 0;
+}
+#homeImage {
+  float:left;
+  margin:0 10px 10px 0;
+}
+figure {
+  display:block;
+  padding-bottom: 10px;
+  border-bottom: 1px solid navy;
+  margin-bottom: 20px;
+}
+
+figcaption {
+  display:block;
+  font-size: 65%;
+  font-weight: bold;
+  margin-top: 0;
+  width: 430px;
+  line-height: 1.4em;
+}
+
+figcaption span {   
+  font-weight: normal;
+  color: gray;
+}
+
+figure img {
+  border: 15px solid white;
+  border-radius:10px;
+  -webkit-box-shadow:2px 2px 5px gray;
+  box-shadow:2px 2px 5px gray;
+  margin-bottom:10px;
+}
+
+table.events {
+  border-collapse: collapse;
+}
+
+table.events th, table.events td {
+  padding: 4px;
+  border: 1px solid #000066;
+}
+
+table.events th {
+  font-size: x-small;
+  text-align: left;
+  background: #241374 url(backgrounds/header-bg.jpg);
+  color: #ffffff;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+table.events td {
+  font-size: small;
+  background: #e2edff url(backgrounds/td.jpg) repeat-x top;
+}
+
+table.events caption {
+  color: #000066;   
+  font-size: small;   
+  font-weight: bold;   
+  text-align: left;
+  padding-bottom: 5px;
+}
+
+form.contact fieldset {   
+  border: 2px solid navy;   
+  padding: 10px; 
+}  
+
+form.contact legend {   
+  font-weight: bold;   
+  font-size: small;   
+  color: navy;   
+  padding: 5px; 
+}
+
+form.contact {   
+  padding: 0;   
+  margin: 0;   
+  margin-top: -15px;
+  line-height: 150%;
+}
+
+form.contact label {
+  font-weight: bold;
+  font-size: small;
+  color: blue;
+}
+
+form.contact label.fixedwidth {   
+  display: block;   
+  width: 240px;   
+  float: left; 
+}
+
+form.contact .buttonarea input {   
+  background: navy;
+  color: white;   
+  font-weight: bold;   
+  padding: 5px;   
+  border: 1px solid white; 
+}
+
+form.contact .buttonarea {   
+  text-align: center;   
+  padding: 4px;   
+  background-color: #0066FF; 
+}
+
+/*
+This section deals with the position of items on the screen.
+It uses absolute positioning - fixed x and y coordinates measured from the
+top-left corner of the browser's content display.
+*/
+
+#navigation, #bodycontent, #header {
+  position: absolute;
+}
+
+#navigation, #bodycontent {
+  top: 107px;
+}
+
+#bodycontent {
+  left: 200px;
+}
+
+#header {
+  width: 100%;
+}

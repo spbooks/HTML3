@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Comment example</title>
+    <meta charset="utf-8"/>
+  </head>
+  <body>
+    <p>I really, <em>really</em> like this HTML stuff.</p>
+	<!-- Added emphasis using the em element. Handy one, that. -->
+	</body>
+</html>

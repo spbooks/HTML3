@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Radio Button Example</title>
+  </head>
+  <body>
+    <form method="get" action="radiobuttons.html">
+      <p>   
+        <input type="radio" name="timeslot" id="morning" value="morning"/>
+        <label for="morning">In the morning</label>
+        <br/>
+        <input type="radio" name="timeslot" id="afternoon" value="afternoon"/>
+        <label for="afternoon">In the afternoon</label>
+        <br/>
+        <input type="radio" name="timeslot" id="evening" value="evening"/>
+        <label for="evening ">In the evening</label> 
+      </p>      
+      <input type="submit"/>
+    </form>
+  </body>
+</html>

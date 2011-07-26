@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>About Bubble Under: who we are, what this site is for</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+  <link href="style1.css" rel="stylesheet" type="text/css"/>
+
+</head>
+
+<body>
+  <div id="header">
+    <div id="sitebranding">
+      <h1>BubbleUnder.com</h1>
+    </div>
+    <div id="tagline">
+      <p>Diving club for the south-west UK - let's make a splash!</p>
+    </div>
+  </div> <!-- end of header div -->
+  <div id="navigation">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+  </div> <!-- end of navigation div -->
+  <div id="bodycontent">
+    <h2>About Us</h2>
+    <p><span class="fun">Bubble Under</span> is
+        a group of diving enthusiasts based in the
+        south-west UK who meet up for diving trips in the summer
+        months when the weather is good and the bacon rolls are
+        flowing. We arrange weekends away as small groups to cut
+        the costs of accommodation and travel and to ensure that
+        everyone gets a trustworthy dive buddy.</p>
+    <p>Although we're based in the south-west, we don't stay on
+        our own turf: past diving weekends away have included
+        trips up to Scapa Flow in Scotland and to Malta's numerous
+        wreck sites.</p>
+    <p>When we're not diving, we often meet up in a local pub to 
+        talk about our recent adventures (<em>any</em> excuse, eh?).</p>     
+    <p>Or as our man Bob Dobalina would put it:</p>
+    <blockquote class="fun">
+      <p>"Happiness is a dip in the ocean followed by a pint or
+          two of Old Speckled Hen. You can quote me on that!"</p>
+    </blockquote>
+  </div> <!-- end of bodycontent div -->
+</body>
+</html>

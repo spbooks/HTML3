@@ -1,0 +1,97 @@
+/*
+CSS for Bubble Under site
+*/
+body {
+  font-family: Verdana, Helvetica, Arial, sans-serif;
+  background-color: #e2edff;
+  line-height: 125%;
+  padding: 15px;
+  border: 4px solid navy;
+}
+
+h1, h2, h3 {
+  font-family: "Trebuchet MS", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  font-size: x-large;
+  background-color: navy;
+  color: white;
+  padding-top: 2em;
+  padding-bottom: .2em;
+  padding-left: .4em;
+}
+
+h2 {
+  color: navy;
+  font-size: 130%;
+  font-weight: normal;
+  padding-top: 15px;
+}
+
+li {
+  font-size: small;
+}
+
+p {
+  font-size: small;
+  color: navy;
+}
+
+#tagline p {
+  font-style: italic;
+  font-family: Georgia, Times, serif;
+  background-color: #bed8f3;
+  border-top: 3px solid #7da5d8;
+  border-bottom: 3px solid #7da5d8;
+  padding-top: .2em;
+  padding-bottom: .2em;
+  padding-left: .8em;
+}
+
+em {
+  text-transform: uppercase;
+}
+
+a {
+  font-weight: bold;
+}
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: navy;
+}
+
+a:hover {
+  text-decoration: none;
+  color: white;
+  background-color: navy;
+}
+
+a:active {
+  color: aqua;
+  background-color: navy;
+}
+
+.fun {
+  color: #339999;
+  font-family: Georgia, Times, serif;
+  letter-spacing: 0.05em;
+}
+
+blockquote.fun {
+  font-style: italic;
+}
+
+#navigation {
+  width: 180px;
+  border: 1px dotted navy;
+  background-color: #7da5d8;
+}
+
+h2, ul {
+  margin-top: 15px;
+}

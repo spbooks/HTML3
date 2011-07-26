@@ -1,0 +1,92 @@
+10
+
+dir
+8318
+svn+ssh://lan.sitepoint.com:7001/books/html3/trunk/code_archive/chapter4/web_site_files
+svn+ssh://lan.sitepoint.com:7001
+
+
+
+2011-06-08T04:13:58.860049Z
+8292
+svn_tom_museth
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+433c8202-6930-0410-a7f7-dab8533f9a92
+
+
+
+
+
+
+0
+
+01_block_level_elements
+dir
+
+02_page_border
+dir
+
+03_navigation_border
+dir
+
+04_navigation_bgcolor
+dir
+
+05_tagline_border
+dir
+
+06_restyled_h2
+dir
+
+07_heading_padding
+dir
+
+08_page_structure
+dir
+
+09_body_no_padding_or_margin
+dir
+
+10_headings_no_margin
+dir
+
+11_absolute_mess
+dir
+
+12_header_visible
+dir
+
+13_body_content_positioned
+dir
+
+14_almost_done
+dir
+
+15_final_layout
+dir
+
+16_em_based_positioning
+dir
+
+17_floated_image
+dir
+
+18_no_nav_list_bullet
+dir
+
+final_version_for_chapter
+dir
+

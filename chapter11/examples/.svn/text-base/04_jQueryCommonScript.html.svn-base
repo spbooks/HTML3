@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<meta charset="utf-8" />
+	<title>Common script example</title>
+  </head>
+  <body>
+    <h1>Common script example</h1>
+    <script type="text/javascript" charset="utf-8" src="js/jquery-1.5.2.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="js/common.js"></script>
+  </body>
+</html>

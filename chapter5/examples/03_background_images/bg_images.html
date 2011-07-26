@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Background Images with CSS</title>
+    <meta charset="utf-8"/>
+
+    <style type="text/css">
+      #content1 {
+        border:1px solid black;
+        background: url(images/clouds.jpg);
+        padding:20px;
+      }
+
+      #content1a {
+        border:1px solid black;
+        background: #748ec5 url(images/brokenimage.jpg);
+        padding:20px;
+      }
+
+      #content2 {
+        border:1px solid black;
+        background: url(images/vert-fade.gif) repeat-x;
+        padding:20px;
+        padding-top:50px;
+      }
+
+      #content3 {
+        border:1px solid black;
+        background: url(images/hori-fade.gif) repeat-y;
+        padding:20px;
+        padding-left:180px;
+      }
+
+      #content4 {
+        border:1px solid black;
+        background: url(images/palm-trees.jpg) no-repeat top right;
+        padding:20px;
+        padding-right:210px;
+      }
+      .sunset {
+        border:1px solid black;
+        color:white;
+        font-weight:bold;
+        font-size:300%;
+        background:black url(images/sunset.jpg);
+        width:650px;
+        height:125px;
+        padding-left:50px;
+        padding-top:400px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Background Images with CSS</h1>
+    
+    <h2>A simple, repeated background</h2>
+    <div id="content1">
+      <p>Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. </p>
+      <p>Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. </p>
+      <p>Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. </p>
+    </div>
+
+    <h2>A simple, repeated background (images disabled or not loading)</h2>
+    <div id="content1a">
+      <p>Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. </p>
+      <p>Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. </p>
+      <p>Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. </p>
+    </div>
+
+    <h2>A background repeated along x-axis</h2>
+    <div id="content2">
+      <p>Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. </p>
+      <p>Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. </p>
+      <p>Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. </p>
+    </div>
+
+    <h2>A background repeated along y-axis</h2>
+    <div id="content3">
+      <p>Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. </p>
+      <p>Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. </p>
+      <p>Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. </p>
+    </div>
+
+    <h2>A background not repeated at all (and fixed to a specific point on screen)</h2>
+    <div id="content4">
+      <p>Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. </p>
+      <p>Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. </p>
+      <p>Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. Content of some kind goes here. </p>
+    </div>
+
+    <h2>A block element with a fixed height and width</h2>
+    <div class="sunset">Sunsets are a gift of nature.</div>
+  </body>
+</html>

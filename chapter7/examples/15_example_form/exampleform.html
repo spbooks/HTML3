@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>A Simple Form</title>
+  </head>
+  <body>
+    <h1>A Simple Form</h1>
+    <form method="get" action="simpleform.html">
+      <fieldset>
+        <legend>All About You</legend>
+        <p>
+          <label for="yourname">A text box input:</label>
+          <input type="text" name="yourname" id="yourname" value="Bob"/>
+        </p>
+        <p>
+          <label for="yourname">A password input:</label>
+          <input type="password" name="password" id="password"/>
+        </p>
+        <p>
+          <input type="checkbox" name="terms" id="terms"/>
+          <label for="terms">An unchecked checkbox</label>
+        </p>
+        <p>
+          <input type="checkbox" name="offers" id="offers" checked="checked"/>
+          <label for="offers">A checked checkbox</label>
+        </p>
+        <p>
+          <input type="radio" name="radiooption" id="first" value="first" checked="checked"/>
+          <label for="first">One radio button</label>
+          <br/>
+          <input type="radio" name="radiooption" id="second" value="second"/>
+          <label for="second">Two radio buttons</label>
+          <br/>
+          <input type="radio" name="radiooption" id="third" value="third"/>
+          <label for="third">Three radio buttons</label>
+        </p>
+        <p>
+          <label for="role">A drop-down list:</label>
+          <select name="role" id="role">
+            <option>Not selected</option>
+            <option>Nor this one</option>
+            <option selected="selected">The selected option</option>
+            <option>Nuh uh</option>
+          </select>
+        </p>
+        <p><input type="submit"/></p>
+      </fieldset>
+    </form>
+  </body>
+</html>

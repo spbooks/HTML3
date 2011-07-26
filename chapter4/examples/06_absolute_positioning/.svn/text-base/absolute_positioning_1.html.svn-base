@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Absolute Positioning</title>
+    <style type="text/css">
+      #redblock {
+        position: absolute;
+        top: 200px;
+        left: 200px;
+        color: white;
+        background-color: red;
+        width: 90px;
+        height: 90px;
+        padding: 5px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Absolute Positioning</h1>
+    <div id="redblock">This is the red block.</div>
+    <p>The red block is positioned 200 pixels from the top and 200
+        pixels from the left.</p>
+  </body>
+</html>

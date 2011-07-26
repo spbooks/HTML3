@@ -1,0 +1,71 @@
+10
+
+dir
+8517
+svn+ssh://lan.sitepoint.com:7001/books/html3/trunk/code_archive/chapter7/website_files
+svn+ssh://lan.sitepoint.com:7001
+
+
+
+2011-07-19T04:32:39.360539Z
+8506
+svn_tom_museth
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+433c8202-6930-0410-a7f7-dab8533f9a92
+
+
+
+
+
+
+0
+
+01_new_paragraph
+dir
+
+02_form_and_fieldset
+dir
+
+03_temporary_form_content
+dir
+
+04_styled_fieldset
+dir
+
+05_contact_name
+dir
+
+06_other_controls
+dir
+
+07_aligned_inputs
+dir
+
+08_region_dropdown
+dir
+
+09_text_area
+dir
+
+10_radios_and_checkboxes
+dir
+
+11_submit_button
+dir
+
+final_version_for_chapter
+dir
+

@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Contact Us at Bubble Under</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link href="style1.css" rel="stylesheet" type="text/css"/>
+  </head>
+
+  <body>
+    <div id="header">
+      <div id="sitebranding">
+        <h1>BubbleUnder.com</h1>
+      </div>
+      <div id="tagline">
+        <p>Diving club for the south-west UK - let's make a splash!</p>
+      </div>
+    </div> <!-- end of header div -->
+    <div id="navigation">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="gallery.html">Image Gallery</a></li>
+      </ul>
+    </div> <!-- end of navigation div -->
+    <div id="bodycontent">
+      <h2>Contact Us</h2>
+      <p>To find out more, contact Club Secretary Bob Dobalina on 01793 641207 or <a href="mailto:bob@bubbleunder.com">email bob@bubbleunder.com</a>.</p>
+    </div><!-- end of bodycontent div -->
+  </body>
+</html>

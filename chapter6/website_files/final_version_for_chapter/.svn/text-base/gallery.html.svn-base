@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Image Gallery - Underwater Photography from Bubble Under's members</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link href="style1.css" rel="stylesheet" type="text/css"/>
+  </head>
+
+  <body>
+    <div id="header">
+      <div id="sitebranding">
+        <h1>BubbleUnder.com</h1>
+      </div>
+      <div id="tagline">
+        <p>Diving club for the south-west UK - let's make a splash!</p>
+      </div>
+    </div> <!-- end of header div -->
+    <div id="navigation">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="events.html">Club Events</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="gallery.html">Image Gallery</a></li>
+      </ul>
+    </div> <!-- end of navigation div -->
+    <div id="bodycontent">
+      <h2>Image Gallery</h2>
+      <p>Below are some of the great views that club members have
+          captured on film (or digital memory) on various dive trips.</p>
+      <p>Please do drop me (that's Bob) a line if you would like to
+          <a href="mailto:bob@bubbleunder.com">submit an image</a> to
+          this gallery.</p>
+      <div class="galleryphoto">   
+        <img src="gallery/turtle-bite.jpg" width="400" height="258"       
+            alt="A turtle swims comfortably among the coral, despite its
+            old injury - a large shark bite on one side"/>
+        <p>This turtle was spotted swimming around the Great Barrier Reef       
+            (Queensland, Australia) quite gracefully despite having had a
+            large chunk taken out of its right side, presumably in
+            a shark attack. <span class="photocredit">[Photographer: Ian
+            Lloyd]</span></p> 
+      </div>
+      <div class="galleryphoto">   
+        <img src="gallery/jellyfish.jpg" width="400" height="300"       
+            alt="A jellyfish flanked by smaller fish"/>
+        <p>Jill was just snorkelling when she took this picture - the       
+            jellyfish was only a couple of feet under the surface, hence
+            the light is excellent. Jill assures us that the jellyfish had
+            no "nasty, stingy, dangly bits"! <span class="photocredit">[Photographer: 
+            Jill Smith]</span></p>
+      </div>
+      <div class="galleryphoto">   
+        <img src="gallery/turtle-face.jpg" width="400" height="300"       
+        alt="A close-up, straight-on shot of a turtle feeding on the       
+        coral"/>
+        <p>"I was right next to him as he bit chunks of coral off for       
+            dinner - what a sound!" So describes club member Paul who took
+            this shot in Fiji. <span class="photocredit">[Photographer: Paul
+            Spencer]</span></p> 
+      </div> 
+      <div class="galleryphoto">   
+        <img src="gallery/what-a-star.jpg" width="400" height="318"       
+            alt="Black and white patterned starfish"/>
+        <p>You're a star - and don't let anyone tell you any different! <span
+            class="photocredit">[Photographer: Helen Cranfield]</span></p> 
+      </div>
+      <div class="galleryphoto">   
+        <img src="gallery/reef2.jpg" width="400" height="285" 
+            alt="Another beautiful example of the Great Barrier Reef"/>
+        <p>Another cracking shot of the reef from Mark. 
+            <span class="photocredit">[Photographer: Mark Williams]</span></p> 
+      </div>  
+    </div> <!-- end of bodycontent div -->
+  </body>
+</html>

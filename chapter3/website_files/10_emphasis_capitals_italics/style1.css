@@ -1,0 +1,33 @@
+/*
+CSS for Bubble Under site
+*/
+body {
+  font-family: Verdana, Helvetica, Arial, sans-serif;
+  background-color: #e2edff;
+  line-height: 125%;
+  padding: 15px;
+}
+
+h1 {
+  font-family: "Trebuchet MS", Helvetica, Arial, sans-serif;
+  font-size: x-large;
+}
+
+h2 {
+  color: blue;
+  font-size: medium;
+  font-weight: normal;
+}
+
+li {
+  font-size: small;
+}
+
+p {
+  font-size: small;
+  color: navy;
+}
+
+em {
+  text-transform: uppercase;
+}

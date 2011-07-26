@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Rowspan and Colspan Example</title>
+    <style type="text/css">
+      table {
+        border-collapse: collapse;   
+        border: 1px solid black; 
+      }  
+      th {
+        text-align: left;
+        border: 1px solid black;
+        padding: 0.2em;
+      }
+      td {
+        border: 1px solid black;
+        padding: 0.2em;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <th rowspan="2">Date</th>
+        <th colspan="2">Event Details</th>
+        <th rowspan="2">Contact</th>
+      </tr>
+      <tr>
+        <th>Event Description</th>
+        <th>Approximate Cost</th>
+      </tr>
+      <tr>
+        <td>12 July</td>
+        <td>Committee meeting, deciding on next year's trips</td>
+        <td>N/A</td>
+        <td>Bob Dobalina</td>
+      </tr>
+      <tr>
+        <td>19 July</td>
+        <td>7-day trip to Hurghada (package deal) - limited spaces</td>
+        <td>&pound;260 pp (all inclusive), departing Luton</td>
+        <td>Bob Dobalina</td>
+      </tr>
+      <tr>
+        <td>5 August</td>
+        <td>Ocean &amp; Sports Diver Theory Course</td>
+        <td>Call for details</td>
+        <td>Jeff Edgely</td>
+      </tr>
+      <tr>
+        <td>12 August</td>
+        <td>Murder Mystery Weekend, Cotswolds (no diving!)</td>
+        <td>&pound;65 pp (accommodation included)</td>
+        <td>Jill Smith</td>
+      </tr>
+    </table>
+  </body>
+</html>

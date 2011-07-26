@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Example of strong and em elements</title>
+    <meta charset="utf-8"/>
+  </head>
+  <body>
+    <p>The limerick packs laughs anatomical,<br/>
+    Into space that is quite economical.<br/>
+    But the good ones I've seen,<br/>
+    So seldom are clean,<br/>
+    And the clean ones so seldom are comical.</p>
+  </body>
+</html>

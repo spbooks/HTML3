@@ -1,0 +1,153 @@
+/*
+CSS for Bubble Under site
+*/
+body {
+  font-family: Verdana, Helvetica, Arial, sans-serif;
+  background-color: #e2edff;
+  line-height: 125%;
+  padding: 0;
+  margin: 0;
+}
+
+h1, h2, h3 {
+  font-family: "Trebuchet MS", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  font-size: x-large;
+  background-color: navy;
+  color: white;
+  padding-top: 2em;
+  padding-bottom: .2em;
+  padding-left: .4em;
+  margin: 0;
+}
+
+h2 {
+  color: navy;
+  font-size: 130%;
+  font-weight: normal;
+  padding-top: 15px;
+}
+
+li {
+  font-size: small;
+  list-style-type: none;
+}
+
+p {
+  font-size: small;
+  color: navy;
+}
+
+#tagline p {
+  font-style: italic;
+  font-family: Georgia, Times, serif;
+  background-color: #bed8f3;
+  border-top: 3px solid #7da5d8;
+  border-bottom: 3px solid #7da5d8;
+  padding-top: .2em;
+  padding-bottom: .2em;
+  padding-left: .8em;
+  margin: 0;
+}
+
+em {
+  text-transform: uppercase;
+}
+
+a {
+  font-weight: bold;
+}
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: navy;
+}
+
+a:hover {
+  text-decoration: none;
+  color: white;
+  background-color: navy;
+}
+
+a:active {
+  color: aqua;
+  background-color: navy;
+}
+
+.fun {
+  color: #339999;
+  font-family: Georgia, Times, serif;
+  letter-spacing: 0.05em;
+}
+
+blockquote.fun {
+  font-style: italic;
+}
+
+#navigation {
+  width: 180px;
+  background-color: #7da5d8;
+}
+
+h2, ul {
+  margin-top: 15px;
+}
+
+#header {
+  border-top: 3px solid #7da5d8;
+}
+
+img.feature {
+  float: right;
+  margin: 10px;
+}
+
+.galleryphoto {
+  padding-bottom: 10px;
+  border-bottom: 1px solid navy;
+  margin-bottom: 20px;
+}
+
+.galleryphoto p {
+  font-size: 65%;
+  font-weight: bold;
+  margin-top: 0;
+  width: 430px;
+  line-height: 1.4em;
+}
+
+.galleryphoto p span {
+  font-weight: normal;
+  color: gray;
+}
+
+.galleryphoto img {
+  border: 15px solid white;
+}
+
+/*
+This section deals with the position of items on the screen.
+It uses absolute positioning - fixed x and y coordinates measured from the
+top-left corner of the browser's content display.
+*/
+
+#navigation, #bodycontent, #header {
+  position: absolute;
+}
+
+#navigation, #bodycontent {
+  top: 107px;
+}
+
+#bodycontent {
+  left: 200px;
+}
+
+#header {
+  width: 100%;
+}

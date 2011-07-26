@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Example of the div element</title>
+    <meta charset="utf-8"/>
+  </head>
+  <body>
+    <p>This is a paragraph.</p>
+    <p>This is another paragraph.</p>
+    <p>This is yet another paragraph.</p>
+    <p>And just one more paragraph.</p>
+
+    <div>This is a div.</div>
+    <div>The content of each div appears on a new line.</div>
+    <div>But unlike paragraphs, there is no additional padding.</div>
+    <div>A div is a generic block-level container.</div>
+  </body>
+</html>

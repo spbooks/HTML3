@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Margin Examples</title>
+    <style type="text/css">
+      .nomargin {
+        padding: 2em;
+        border: 1px dashed gray;
+      }
+      .withmargin {
+        padding: 2em;
+        border: 1px dashed gray;
+        margin: 2em;
+      }
+    </style>
+  </head>
+  <body>
+    <p class="nomargin">This paragraph has padding and a border, but no margin.</p>
+    <p class="withmargin">This paragraph has padding, a border and a margin.</p>
+  </body>
+</html>

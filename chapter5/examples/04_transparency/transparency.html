@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Transparency and Image File Formats</title>
+    <meta charset="utf-8"/>
+
+    <style type="text/css">
+      .backgroundbox1 {
+        padding: 10px;
+        background-color: #7ACCC8;
+      }
+      .backgroundbox2
+      {
+        padding:10px;
+        background-image: url(images/fade.jpg);
+        background-repeat: repeat-x;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Transparency and Image File Formats</h1>
+    <h2>A GIF with a transparent background</h2>
+    <div class="backgroundbox1"><img src="images/company-logo-transparent.gif" alt="Company Logo" width="300" height="123"/>
+  </div>
+
+    <h2>A JPG does not support transparency</h2>
+    <div class="backgroundbox1"><img src="images/company-logo-no-trans.jpg" alt="Company Logo" width="300" height="123"/>
+  </div>
+
+    <h2>A PNG supports transparency, but versions of IE below 6 do not support transparency  </h2>
+    <div class="backgroundbox1"><img src="images/company-logo--trans.png" alt="Company Logo" width="300" height="123"/>
+  </div>
+
+    <h1>With a Faded/mixed background, Transparency Problems are Revealed</h1>
+
+    <h2>A GIF with a transparent background</h2>
+    <div class="backgroundbox2"><img src="images/company-logo-transparent.gif" alt="Company Logo" width="300" height="123"/>
+  </div>
+  
+    <h2>A JPG does not support transparency</h2>
+    <div class="backgroundbox2"><img src="images/company-logo-no-trans.jpg" alt="Company Logo" width="300" height="123"/>
+  </div>
+
+    <h2>A PNG supports transparency, but versions of IE below 6 do not support transparency  </h2>
+    <div class="backgroundbox2"><img src="images/company-logo--trans.png" alt="Company Logo" width="300" height="123"/>
+  </div>
+  </body>
+</html>

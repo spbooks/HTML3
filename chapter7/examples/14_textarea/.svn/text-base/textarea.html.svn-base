@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Textarea Example</title>
+  </head>
+  <body>
+    <form method="get" action="textarea.html">
+      <p><label for="hobbies">Please tell us about your hobbies:</label></p>
+      <p><textarea name="hobbies" rows="7" cols="40"></textarea></p>
+      <input type="submit"/>
+    </form>
+  </body>
+</html>

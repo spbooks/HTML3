@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Relative Positioning Example</title>
+    <style type="text/css">
+      p {
+        background-color: silver;
+      }
+      .nudged {
+        position: relative;
+        top: 10px;
+        left: 10px; 
+      }
+    </style>
+  </head>
+  <body>
+    <p>Next came a massage that I was not expecting. It started with a bit
+        of manipulation of the temples, followed by the barber's attempt to drag the
+        top half of my face down towards my chin (and vice-versa) with his big burly
+        hands. I'm sure it's good for you. I wasn't sure it was good for me, though.
+        He then made his way down to my shoulders and managed to pull me around in
+        such a way that I squealed like a girl. This was not relaxing -- this was
+        painful! Evidently I was knotted up. I must have needed it, I reasoned.</p>
+    <p class="nudged">There was an audible crack as he grabbed my head and twisted
+        it to the right, all of it quite unexpected. To the left, no cracking sound.
+        And we weren't quite done yet ...</p>
+    <p>To finish off, the barber got a pair of tongs. He took a ball of cotton
+        wool and wrapped it tightly around the tip of the tongs, so that it looked
+        like a large cotton bud. He then doused the cotton wool in what must have
+        been pure alcohol, set it on fire, and began to fling it at my face. Using
+        one hand to cover the top of my ear and my hair, he flashed it against my
+        ear, singeing the small hairs in and around the ear.</p>
+  </body>
+</html>

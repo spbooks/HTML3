@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Nested Fieldset Example</title>
+    <style type="text/css">
+      fieldset fieldset {
+        width: 45%;
+        float: left;
+      }
+      #submit {
+        margin-bottom: 10px;
+        float: right;
+      }
+    </style>
+  </head>
+  <body>
+    <form method="get" action="nested.html">
+      <fieldset>
+        <legend>Personal Details</legend>
+        <fieldset>
+          <legend>Address Details</legend>
+            <p>
+              <label for="city">City:</label>
+              <input type="text" name="city" id="city"/>
+            </p>
+            <p>
+              <label for="yourname">Zip Code:</label>
+              <input type="text" name="address" id="yourname"/>
+            </p>
+        </fieldset>
+        <fieldset>
+          <legend>Telephone Details</legend>
+            <p>
+              <label for="city">Home:</label>
+              <input type="text" name="city" id="city"/>
+            </p>
+            <p>
+              <label for="yourname">Mobile:</label>
+              <input type="text" name="address" id="yourname"/>
+            </p>
+        </fieldset>
+      </fieldset>
+      <p><input type="submit" id="submit"/></p>
+    </form>
+  </body>
+</html>

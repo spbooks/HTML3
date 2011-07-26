@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Contact Details</title>
+    <style type="text/css">
+      table {
+        border-collapse: collapse;
+      }
+      td {
+        border: 1px solid black;
+        padding: 0.2em;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <tr>     
+        <td>9:30 p.m. - 10:00 p.m.</td>
+        <td>10:00 p.m. - 11:00 p.m.</td>
+        <td>11:00 p.m. - 11:45 p.m.</td>
+      </tr>
+      <tr>
+        <td>Regional News</td>
+        <td>Lost</td>
+        <td>Big Brother</td>
+      </tr>
+    </table>
+  </body>
+</html>

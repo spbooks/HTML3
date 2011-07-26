@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Dropdown List Example</title>
+  </head>
+  <body>
+    <form method="get" action="dropdown.html">
+      <p>
+        <label for="role">Which best describes you?</label>   
+        <select name="role" id="role">     
+          <option>Secretary</option>
+          <option>Web designer</option>
+          <option>Manager</option>
+          <option>Cleaner</option>     
+          <option>Other</option>
+        </select> 
+      </p>
+      <input type="submit"/>
+    </form>
+  </body>
+</html>

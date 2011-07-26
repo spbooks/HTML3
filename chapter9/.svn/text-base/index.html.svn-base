@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>Build Your Own Web Site The Right Way Using HTML And CSS, 2nd Edition</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+  <link href="../shared/archive_styles/archive.css" rel="stylesheet" type="text/css"/>
+
+</head>
+
+<body>
+  <a href="http://www.sitepoint.com/"><img src="../shared/archive_styles/sitepoint-logo.gif" alt="SitePoint logo"/>
+</a>
+  <h1><span class="subtitle">Build Your Own</span><br/>
+
+      Web Site The Right Way<br/>
+
+      <span class="subtitle">Using HTML And CSS</span><br/><span class="subtitle">2nd Edition</span></h1>
+  <h2><a href="../index.html">&laquo; Back</a></h2>
+  <div id="main">
+    <h3>Chapter 9 - Adding a Blog to your Web Site</h3>
+    <ul>
+      <li>Project Web Site (bubbleunder.com) files
+        <ul>
+          <li>Developing the home page
+            <ol>
+              <li><a href="web_site_files/01_blogger_template/template.html">Blogger template</a></li>
+              <li><a href="web_site_files/02_first_post/index.html">First post</a></li>
+              <li><a href="web_site_files/03_with_comments/first-post.html">Archive page for first post with comments</a></li>
+              <li><a href="web_site_files/04_valid_markup/template.html">Blogger template - modified to validate</a></li>
+              <li><a href="web_site_files/05_first_real_post/index.html">Home page - first real post</a></li>
+              <li><a href="web_site_files/06_modified_post_style/index.html">Home page - tidied up style for posts</a></li>
+            </ol>
+          </li>
+          <li>Final version
+            <ul>
+              <li><a href="web_site_files/final_version_for_chapter/index.html">Home page</a></li>
+              <li><a href="web_site_files/final_version_for_chapter/about.html">About Us</a></li>
+              <li><a href="web_site_files/final_version_for_chapter/contact.html">Contact Us</a></li>
+              <li><a href="web_site_files/final_version_for_chapter/gallery.html">Gallery</a></li>
+              <li><a href="web_site_files/final_version_for_chapter/events.html">Events</a></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+  <h3>Links</h3>
+  <ul>
+    <li><a href="http://sitepoint.com/books/html2/errata.php">Errata page for this book</a></li>
+    <li><a href="http://sitepoint.com/books/">Other SitePoint books</a></li>
+    <li><a href="http://sitepoint.com/newsletter/">SitePoint Newsletters</a></li>
+    <li><a href="http://sitepoint.com/forums/">SitePoint Forums</a></li>
+  </ul>
+</body>
+</html>

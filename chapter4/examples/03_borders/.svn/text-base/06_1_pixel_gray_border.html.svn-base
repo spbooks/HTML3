@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Grabbing For Attention in Caravan Parks</title>
+    <style type="text/css">
+      body {
+        font-family: Verdana;
+      }
+
+      .highlight {
+        border-width: 1px;
+        border-style: solid;
+        border-color: gray;
+      }
+    </style>
+  </head>
+  <body>
+    <p>We've stayed in quite a few caravan parks and camp sites over the
+        last couple of months, and I've started to notice a few things that seem
+        to suggest that there are some unwritten rules for staying at these places.
+        Unwritten until now, that is.</p>
+    <p>Everyone else on site will be better prepared and better equipped
+        than you. It's a fact. No matter what extras you might carry, someone
+        a couple of plots down will still have have more. Utensil envy is rife.</p>
+    <p class="highlight">When you first park, the distance
+        between the power supply and your van's power socket will be
+        precisely 2 inches longer than the inadequate power lead that
+        you own.</p>
+    <p>On the hottest evenings, you will be parked next to someone with
+        a very flashy van that's equipped with an air-con unit. It
+        will be facing you, blowing out hot air and taunting you
+        with its efficient hum.</p>
+  </body>
+</html>

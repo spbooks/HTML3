@@ -1,0 +1,125 @@
+/*
+CSS for Bubble Under site
+*/
+body {font-family:Verdana, Helvetica, Arial, sans-serif;background-color:#e2edff;line-height:125%;padding:0;margin:0;}
+/* Structure - positioning of key parts of page */
+nav, #bodycontent, header {position:absolute;}
+nav, #bodycontent {top:107px;}
+#bodycontent {left:200px;}
+header {width:100%;}
+
+/* General styles */
+li {font-size:small;list-style-type:none;}
+p {font-size:small;color:navy;}
+#tagline p {font-style:italic;font-family:Georgia, Times, serif;border-top:3px solid #7da5d8;border-bottom:3px solid #7da5d8;padding-top:.2em;padding-bottom:.2em;padding-left:.8em;margin:0;background:#bed8f3 url(backgrounds/tagline-fade.jpg) repeat-y right;}
+em {text-transform:uppercase;}
+h2, ul {margin-top:15px;}
+.fun {color:#339999;font-family:Georgia, Times, serif;letter-spacing:0.05em;}
+blockquote.fun {font-style:italic;}
+
+/* Homepage only */
+#twitImageLink img {border:none;display:block;margin:15px 0;}
+#homeImage {float:left;margin:0 10px 10px 0;}
+
+/* Headings */
+h1, h2, h3 {font-family:"Trebuchet MS", Helvetica, Arial, sans-serif;}
+h1 {font-family:'Candal', arial, serif;font-size:x-large;background-color:navy;color:white;padding-top:2em;padding-bottom:.2em;padding-left:.4em;margin:0;background:navy url(backgrounds/header-bg.jpg) repeat-y right bottom;}
+h2 {color:navy;font-size:130%;font-weight:normal;padding-top:15px;font-family:'Candal', arial, serif;font-size:2em;line-height:1;}
+
+/* Link Styles */
+a {font-weight:bold;}
+a:link {color:black;}
+a:visited {color:navy;}
+a:hover {text-decoration:none;color:white;background-color:navy;}
+a:active {color:aqua;background-color:navy;}
+
+/* Main Navigation */
+nav {width:180px;height:484px;background:#7da5d8 url(backgrounds/nav-bg.jpg) no-repeat;display:block;/*Only for IE8 
+or less */}
+nav ul {margin:0;padding-top:15px;}
+nav a {text-shadow:1px 1px 2px white, -1px -1px 2px white;text-decoration:none;}
+nav a:hover, nav a:focus {text-shadow:none;}
+
+/* Table styles */
+table.events {border-collapse:collapse;}
+table.events th, table.events td {padding:4px;border:1px solid #000066;}
+table.events th {font-size:x-small;text-align:left;background:#241374 url(backgrounds/header-bg.jpg);color:#ffffff;padding-top:0;padding-bottom:0;padding-left:2px;padding-right:2px;}
+table.events td {font-size:small;background:#e2edff url(backgrounds/td.jpg) repeat-x top;}
+table.events caption {color:#000066;font-size:small;font-weight:bold;text-align:left;padding-bottom:5px;}
+
+/* Form styles */
+form.contact fieldset {border:2px solid navy;padding:10px;}
+form.contact legend {font-weight:bold;font-size:small;color:navy;padding:5px;}
+form.contact {padding:0;margin:0;margin-top:-15px;line-height:150%;}
+form.contact label {font-weight:bold;font-size:small;}
+form.contact label.fixedwidth {display:block;width:240px;float:left;}
+form.contact .buttonarea input {background:navy;color:white;font-weight:bold;padding:5px;border:1px solid white;}
+form.contact .buttonarea {text-align:center;padding:4px;background-color:#0066FF;}
+
+/* New HTML5 elements */
+header {border-top:3px solid #7da5d8;display:block;/*Only for IE8 or less */}
+aside {display:block;float:right;margin:10px;padding:10px;background:white;font-style:italic;color:gray;}
+aside blockquote {width:278px;font-size:1.2em;line-height:1.4;margin:0 0 0.5em 0;font-style:normal;color:#006;font-family:'Candal', arial, serif;}
+aside {border:1px solid gray;
+	-moz-border-radius:20px;
+	-webkit-border-radius:5px;
+	-o-border-radius:5px;
+	-ms-border-radius:5px;
+	border-radius:5px;
+	-moz-box-shadow:4px 4px 10px gray;
+	-webkit-box-shadow:4px 4px 10px gray;
+	-o-box-shadow:4px 4px 10px gray;
+	-ms-box-shadow:4px 4px 10px gray;
+	box-shadow:4px 4px 10px gray;
+	}
+figure {display:block;padding-bottom:10px;border-bottom:1px solid navy;margin-bottom:20px;}
+figcaption {display:block;font-size:65%;font-weight:bold;margin-top:0;width:430px;line-height:1.4em;}
+figcaption span {font-weight:normal;color:gray;}
+figure img {border:15px solid white;margin-bottom:10px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	-o-border-radius:10px;
+	-ms-border-radius:10px;
+	border-radius:10px;
+	-moz-box-shadow:2px 2px 5px gray;
+	-webkit-box-shadow:2px 2px 5px gray;
+	-o-box-shadow:2px 2px 5px gray;
+	-ms-box-shadow:2px 2px 5px gray;
+	box-shadow:2px 2px 5px gray;
+	}
+fieldset {
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	-o-border-radius:10px;
+	-ms-border-radius:10px;
+	border-radius:10px;
+}
+input, select, textarea {border:1px solid gray;padding:3px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	-o-border-radius:5px;
+	-ms-border-radius:5px;
+	border-radius:5px;
+	}
+input:focus, select:focus, textarea:focus {border:1px solid black;
+	-moz-box-shadow:2px 2px 4px silver, -2px -2px 4px silver;
+	-webkit-box-shadow:2px 2px 4px silver, -2px -2px 4px silver;
+	-o-box-shadow:2px 2px 4px silver, -2px -2px 4px silver;
+	-ms-box-shadow:2px 2px 4px silver, -2px -2px 4px silver;
+	box-shadow:2px 2px 4px silver, -2px -2px 4px silver;
+}
+div.buttonarea {
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	-o-border-radius:5px;
+	-ms-border-radius:5px;
+	border-radius:5px;
+}
+form.contact label {
+	-moz-text-shadow:1px 1px 1px white, -1px -1px 1px white;
+	-webkit-text-shadow:1px 1px 1px white, -1px -1px 1px white;
+	-o-text-shadow:1px 1px 1px white, -1px -1px 1px white;
+	-ms-text-shadow:1px 1px 1px white, -1px -1px 1px white;
+	text-shadow:1px 1px 1px white, -1px -1px 1px white;
+}
+

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Commenting out XHTML</title>
+    <meta charset="utf-8"/>
+  </head>
+  <body>
+    <h1>Current Stock</h1>
+    <p>The following items are available for order:</p>
+    <ul>
+      <li>Dark Smoke Window Tinting</li>
+      <li>Bronze Window Tinting</li>
+      <!--<li>Spray mount</li>
+      <li>Craft knife (pack of 5)</li>-->
+      </ul>
+  </body>
+</html>

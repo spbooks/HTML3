@@ -1,0 +1,8 @@
+/*
+CSS for Bubble Under site
+*/
+
+p {
+  font-weight: bold;
+  color: blue;
+}
