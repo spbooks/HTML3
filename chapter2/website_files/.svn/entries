@@ -1,96 +1,0 @@
-10
-
-dir
-8308
-svn+ssh://lan.sitepoint.com:7001/books/html3/trunk/code_archive/chapter2/web_site_files
-svn+ssh://lan.sitepoint.com:7001
-
-
-
-2011-06-14T07:17:46.096714Z
-8308
-svn_tom_museth
-
-
-svn:special svn:externals svn:needs-lock
-
-
-
-
-
-
-
-
-
-
-
-433c8202-6930-0410-a7f7-dab8533f9a92
-
-
-
-
-
-
-0
-
-.DS_Store
-file
-
-
-
-
-2011-06-14T06:56:38.000000Z
-181b636442b64003a6f3369b0d7bdd15
-2011-06-14T07:17:46.096714Z
-8308
-svn_tom_museth
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-6148
-
-01_skeleton
-dir
-
-02_setting_a_title
-dir
-
-03_welcoming_new_visitors
-dir
-
-04_whats_it_all_about
-dir
-
-05_clickable_email_and_image
-dir
-
-06_adding_structure_with_divs
-dir
-
-07_linking_between_pages
-dir
-
-08_blockquote
-dir
-
-final_version_for_chapter
-dir
-

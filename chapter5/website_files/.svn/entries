@@ -1,71 +1,0 @@
-10
-
-dir
-8324
-svn+ssh://lan.sitepoint.com:7001/books/html3/trunk/code_archive/chapter5/web_site_files
-svn+ssh://lan.sitepoint.com:7001
-
-
-
-2011-06-08T04:13:58.860049Z
-8292
-svn_tom_museth
-
-
-svn:special svn:externals svn:needs-lock
-
-
-
-
-
-
-
-
-
-
-
-433c8202-6930-0410-a7f7-dab8533f9a92
-
-
-
-
-
-
-0
-
-01_link_in_nav
-dir
-
-02_gallery_one_image
-dir
-
-03_polaroid_effect
-dir
-
-04_unstyled_caption
-dir
-
-05_styled_caption
-dir
-
-06_alternate_styled_caption
-dir
-
-07_custom_divider
-dir
-
-08_complete_gallery
-dir
-
-09_navigation_background
-dir
-
-10_tagline_background
-dir
-
-11_heading_background
-dir
-
-final_version_for_chapter
-dir
-

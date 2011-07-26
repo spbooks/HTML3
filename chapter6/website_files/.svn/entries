@@ -1,53 +1,0 @@
-10
-
-dir
-8329
-svn+ssh://lan.sitepoint.com:7001/books/html3/trunk/code_archive/chapter6/web_site_files
-svn+ssh://lan.sitepoint.com:7001
-
-
-
-2011-06-08T04:13:58.860049Z
-8292
-svn_tom_museth
-
-
-svn:special svn:externals svn:needs-lock
-
-
-
-
-
-
-
-
-
-
-
-433c8202-6930-0410-a7f7-dab8533f9a92
-
-
-
-
-
-
-0
-
-01_events_first_draft
-dir
-
-02_events_table
-dir
-
-03_events_table_borders
-dir
-
-04_styled_table_header
-dir
-
-05_stylish_table_cells
-dir
-
-final_version_for_chapter
-dir
-

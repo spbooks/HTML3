@@ -1,56 +1,0 @@
-10
-
-dir
-8517
-svn+ssh://lan.sitepoint.com:7001/books/html3/trunk/code_archive/chapter6/examples
-svn+ssh://lan.sitepoint.com:7001
-
-
-
-2011-07-11T05:14:40.726642Z
-8440
-svn_tom_museth
-has-props
-
-svn:special svn:externals svn:needs-lock
-
-
-
-
-
-
-
-
-
-
-
-433c8202-6930-0410-a7f7-dab8533f9a92
-
-
-
-
-
-
-0
-
-01_example_table
-dir
-
-02_one_pixel_borders
-dir
-
-03_styled_table
-dir
-
-04_caption_and_summary
-dir
-
-05_tv_listings
-dir
-
-06_colspan_rowspan
-dir
-
-07_train_timetable
-dir
-
