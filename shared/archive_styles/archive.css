@@ -48,7 +48,9 @@ ul li {
   font-weight: bold;
 }
 ul li a {
-  font-weight: normal;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
 }
 img {
   float: left;
@@ -59,10 +61,21 @@ img {
 }
 ol li {
   margin-bottom: 5px;
+  font-size: 12px;
 }
 code {
   font-size: 1.3em;
 }
+a {
+  text-decoration: none;
+  color : #003366;
+}
+span{
+  font-size: 14px;
+}
 #main {
   background: transparent url(book-cover.png) top right no-repeat; 
+}
+.heading {
+   font-size: 14px;
 }
